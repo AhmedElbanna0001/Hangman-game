@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hangman</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/play.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-border">
+        <img
+          src="./assets/hangman-graphic/background.png"
+          alt=""
+          class="hangman-image"
+        />
+      </div>
+      <p class="word-prev"></p>
+      <div class="vowels-row">
+        <button class="vowel-button">A</button>
+        <button class="vowel-button">E</button>
+        <button class="vowel-button">U</button>
+        <button class="vowel-button">O</button>
+        <button class="vowel-button">I</button>
+      </div>
+      <div class="letters-grid">
+        <button class="letter-button">B</button>
+        <button class="letter-button">C</button>
+        <button class="letter-button">D</button>
+        <button class="letter-button">F</button>
+        <button class="letter-button">G</button>
+        <button class="letter-button">H</button>
+        <button class="letter-button">J</button>
+        <button class="letter-button">K</button>
+        <button class="letter-button">L</button>
+        <button class="letter-button">M</button>
+        <button class="letter-button">N</button>
+        <button class="letter-button">P</button>
+        <button class="letter-button">Q</button>
+        <button class="letter-button">R</button>
+        <button class="letter-button">S</button>
+        <button class="letter-button">T</button>
+        <button class="letter-button">V</button>
+        <button class="letter-button">W</button>
+        <button class="letter-button">X</button>
+        <button class="letter-button">Y</button>
+        <button class="letter-button">Z</button>
+      </div>
+      <div class="overlay hidden"></div>
+      <div class="modal hidden">
+        <img src="" alt="" class="modal-image" />
+        <p class="game-result">Test</p>
+        <p class="intro">The word was:</p>
+        <p class="modal-word">Test</p>
+        <div class="button-container">
+          <a href="./categories.html"
+            ><button class="play-agin">Play again</button>
+          </a>
+          <a href="./index.html"
+            ><button class="main-menu">Main menu</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/play.js"></script>
+  </body>
+</html>

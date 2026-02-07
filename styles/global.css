@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  font-family: var(--secondary-font), Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary-font: "Bungee";
+  --secondary-font: "Alfa Slab One";
+}
+
+.hidden {
+  display: none;
+}
+
+.removed {
+  visibility: hidden;
+}
